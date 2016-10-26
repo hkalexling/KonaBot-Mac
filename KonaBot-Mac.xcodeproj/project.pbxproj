@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71D6AED11DC0B9F10028623C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED01DC0B9F10028623C /* AppDelegate.m */; };
+		71D6AED41DC0B9F10028623C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED31DC0B9F10028623C /* main.m */; };
+		71D6AED71DC0B9F10028623C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED61DC0B9F10028623C /* ViewController.m */; };
+		71D6AED91DC0B9F10028623C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D6AED81DC0B9F10028623C /* Assets.xcassets */; };
+		71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D6AEDA1DC0B9F10028623C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KonaBot-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D6AECF1DC0B9F10028623C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71D6AED01DC0B9F10028623C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71D6AED31DC0B9F10028623C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71D6AED51DC0B9F10028623C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71D6AED61DC0B9F10028623C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71D6AED81DC0B9F10028623C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D6AEDB1DC0B9F10028623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71D6AEDD1DC0B9F10028623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D6AEC91DC0B9F10028623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D6AEC31DC0B9F10028623C = {
+			isa = PBXGroup;
+			children = (
+				71D6AECE1DC0B9F10028623C /* KonaBot-Mac */,
+				71D6AECD1DC0B9F10028623C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71D6AECD1DC0B9F10028623C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71D6AECE1DC0B9F10028623C /* KonaBot-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				71D6AECF1DC0B9F10028623C /* AppDelegate.h */,
+				71D6AED01DC0B9F10028623C /* AppDelegate.m */,
+				71D6AED51DC0B9F10028623C /* ViewController.h */,
+				71D6AED61DC0B9F10028623C /* ViewController.m */,
+				71D6AED81DC0B9F10028623C /* Assets.xcassets */,
+				71D6AEDA1DC0B9F10028623C /* Main.storyboard */,
+				71D6AEDD1DC0B9F10028623C /* Info.plist */,
+				71D6AED21DC0B9F10028623C /* Supporting Files */,
+			);
+			path = "KonaBot-Mac";
+			sourceTree = "<group>";
+		};
+		71D6AED21DC0B9F10028623C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71D6AED31DC0B9F10028623C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D6AECB1DC0B9F10028623C /* KonaBot-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot-Mac" */;
+			buildPhases = (
+				71D6AEC81DC0B9F10028623C /* Sources */,
+				71D6AEC91DC0B9F10028623C /* Frameworks */,
+				71D6AECA1DC0B9F10028623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KonaBot-Mac";
+			productName = "KonaBot-Mac";
+			productReference = 71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71D6AEC41DC0B9F10028623C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alex Ling";
+				TargetAttributes = {
+					71D6AECB1DC0B9F10028623C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9947S4AFL2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D6AEC31DC0B9F10028623C;
+			productRefGroup = 71D6AECD1DC0B9F10028623C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D6AECB1DC0B9F10028623C /* KonaBot-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D6AECA1DC0B9F10028623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D6AED91DC0B9F10028623C /* Assets.xcassets in Resources */,
+				71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71D6AEC81DC0B9F10028623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D6AED71DC0B9F10028623C /* ViewController.m in Sources */,
+				71D6AED41DC0B9F10028623C /* main.m in Sources */,
+				71D6AED11DC0B9F10028623C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71D6AEDA1DC0B9F10028623C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71D6AEDB1DC0B9F10028623C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71D6AEDE1DC0B9F10028623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71D6AEDF1DC0B9F10028623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71D6AEE11DC0B9F10028623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9947S4AFL2;
+				INFOPLIST_FILE = "KonaBot-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkalexling.KonaBot-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71D6AEE21DC0B9F10028623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9947S4AFL2;
+				INFOPLIST_FILE = "KonaBot-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkalexling.KonaBot-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D6AEDE1DC0B9F10028623C /* Debug */,
+				71D6AEDF1DC0B9F10028623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D6AEE11DC0B9F10028623C /* Debug */,
+				71D6AEE21DC0B9F10028623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71D6AEC41DC0B9F10028623C /* Project object */;
+}
