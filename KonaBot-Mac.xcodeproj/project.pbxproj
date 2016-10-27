@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713F99D61DC1969C006674F3 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 713F99D51DC1969C006674F3 /* Utility.m */; };
+		71524E791DC23B4900FC6278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71524E781DC23B4900FC6278 /* Assets.xcassets */; };
+		71524E7F1DC249B400FC6278 /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71524E7E1DC249B400FC6278 /* PreferenceViewController.m */; };
 		71D6AED11DC0B9F10028623C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED01DC0B9F10028623C /* AppDelegate.m */; };
 		71D6AED41DC0B9F10028623C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED31DC0B9F10028623C /* main.m */; };
-		71D6AED71DC0B9F10028623C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED61DC0B9F10028623C /* ViewController.m */; };
-		71D6AED91DC0B9F10028623C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D6AED81DC0B9F10028623C /* Assets.xcassets */; };
 		71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D6AEDA1DC0B9F10028623C /* Main.storyboard */; };
+		71D6AEE71DC102150028623C /* KonaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AEE61DC102150028623C /* KonaManager.m */; };
+		FD509D806572F402055FD1E4 /* Pods_KonaBot_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725EA2B9B682AD20E830DC0 /* Pods_KonaBot_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1725EA2B9B682AD20E830DC0 /* Pods_KonaBot_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonaBot_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD548370774683C34AD1E13 /* Pods-KonaBot-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonaBot-Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KonaBot-Mac/Pods-KonaBot-Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		713F99D41DC1969C006674F3 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		713F99D51DC1969C006674F3 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		71524E781DC23B4900FC6278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71524E7D1DC249B400FC6278 /* PreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceViewController.h; sourceTree = "<group>"; };
+		71524E7E1DC249B400FC6278 /* PreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceViewController.m; sourceTree = "<group>"; };
 		71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KonaBot-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D6AECF1DC0B9F10028623C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71D6AED01DC0B9F10028623C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71D6AED31DC0B9F10028623C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71D6AED51DC0B9F10028623C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71D6AED61DC0B9F10028623C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71D6AED81DC0B9F10028623C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71D6AEDB1DC0B9F10028623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71D6AEDD1DC0B9F10028623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D6AEE51DC102150028623C /* KonaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonaManager.h; sourceTree = "<group>"; };
+		71D6AEE61DC102150028623C /* KonaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KonaManager.m; sourceTree = "<group>"; };
+		E8BF65B46804E952DC279B8A /* Pods-KonaBot-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonaBot-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-KonaBot-Mac/Pods-KonaBot-Mac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD509D806572F402055FD1E4 /* Pods_KonaBot_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0675DF43F3BC64FF27BC5D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1725EA2B9B682AD20E830DC0 /* Pods_KonaBot_Mac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CD6DA852D47FC5BE8DD28FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DD548370774683C34AD1E13 /* Pods-KonaBot-Mac.debug.xcconfig */,
+				E8BF65B46804E952DC279B8A /* Pods-KonaBot-Mac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		71D6AEC31DC0B9F10028623C = {
 			isa = PBXGroup;
 			children = (
 				71D6AECE1DC0B9F10028623C /* KonaBot-Mac */,
 				71D6AECD1DC0B9F10028623C /* Products */,
+				0CD6DA852D47FC5BE8DD28FC /* Pods */,
+				0675DF43F3BC64FF27BC5D49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +86,15 @@
 		71D6AECE1DC0B9F10028623C /* KonaBot-Mac */ = {
 			isa = PBXGroup;
 			children = (
+				71524E781DC23B4900FC6278 /* Assets.xcassets */,
 				71D6AECF1DC0B9F10028623C /* AppDelegate.h */,
 				71D6AED01DC0B9F10028623C /* AppDelegate.m */,
-				71D6AED51DC0B9F10028623C /* ViewController.h */,
-				71D6AED61DC0B9F10028623C /* ViewController.m */,
-				71D6AED81DC0B9F10028623C /* Assets.xcassets */,
+				71524E7D1DC249B400FC6278 /* PreferenceViewController.h */,
+				71524E7E1DC249B400FC6278 /* PreferenceViewController.m */,
+				71D6AEE51DC102150028623C /* KonaManager.h */,
+				71D6AEE61DC102150028623C /* KonaManager.m */,
+				713F99D41DC1969C006674F3 /* Utility.h */,
+				713F99D51DC1969C006674F3 /* Utility.m */,
 				71D6AEDA1DC0B9F10028623C /* Main.storyboard */,
 				71D6AEDD1DC0B9F10028623C /* Info.plist */,
 				71D6AED21DC0B9F10028623C /* Supporting Files */,
@@ -83,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot-Mac" */;
 			buildPhases = (
+				A0040BA0C26765400C1825B5 /* 📦 Check Pods Manifest.lock */,
 				71D6AEC81DC0B9F10028623C /* Sources */,
 				71D6AEC91DC0B9F10028623C /* Frameworks */,
 				71D6AECA1DC0B9F10028623C /* Resources */,
+				1E39CB5EB9CF06079D179B9B /* 📦 Embed Pods Frameworks */,
+				2B3A3F535DBD3CBEB3C6C1F7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,19 +172,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D6AED91DC0B9F10028623C /* Assets.xcassets in Resources */,
+				71524E791DC23B4900FC6278 /* Assets.xcassets in Resources */,
 				71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E39CB5EB9CF06079D179B9B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KonaBot-Mac/Pods-KonaBot-Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3A3F535DBD3CBEB3C6C1F7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KonaBot-Mac/Pods-KonaBot-Mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0040BA0C26765400C1825B5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71D6AEC81DC0B9F10028623C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D6AED71DC0B9F10028623C /* ViewController.m in Sources */,
+				71D6AEE71DC102150028623C /* KonaManager.m in Sources */,
+				713F99D61DC1969C006674F3 /* Utility.m in Sources */,
+				71524E7F1DC249B400FC6278 /* PreferenceViewController.m in Sources */,
 				71D6AED41DC0B9F10028623C /* main.m in Sources */,
 				71D6AED11DC0B9F10028623C /* AppDelegate.m in Sources */,
 			);
@@ -256,12 +343,14 @@
 		};
 		71D6AEE11DC0B9F10028623C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD548370774683C34AD1E13 /* Pods-KonaBot-Mac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9947S4AFL2;
 				INFOPLIST_FILE = "KonaBot-Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "hkalexling.KonaBot-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -269,12 +358,14 @@
 		};
 		71D6AEE21DC0B9F10028623C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BF65B46804E952DC279B8A /* Pods-KonaBot-Mac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9947S4AFL2;
 				INFOPLIST_FILE = "KonaBot-Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "hkalexling.KonaBot-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -299,6 +390,7 @@
 				71D6AEE21DC0B9F10028623C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

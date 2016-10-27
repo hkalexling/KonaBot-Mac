@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Utility.h"
+#import "KonaManager.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 

@@ -1,0 +1,6 @@
+framework module Pods_KonaBot_Mac {
+  umbrella header "Pods-KonaBot-Mac-umbrella.h"
+
+  export *
+  module * { export * }
+}
