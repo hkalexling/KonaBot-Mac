@@ -110,7 +110,7 @@
 	if (components.minute > 0){
 		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ min ", @(components.minute)]];
 	}
-	if (components.second > 0){
+	if (components.second >= 0){
 		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ sec ", @(components.second)]];
 	}
 	return str;
