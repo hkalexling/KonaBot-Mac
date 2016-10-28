@@ -94,17 +94,34 @@
 	return nil;
 }
 
-+ (NSDate *) lastUpdateDate {
-	NSNumber *num = [[NSUserDefaults standardUserDefaults] objectForKey:@"lastUpdate"];
-	if (num){
-		return [NSDate dateWithTimeIntervalSince1970:[num floatValue]];
++ (NSString *) fullStringFromSeconds:(NSInteger)seconds {
+	NSCalendar *calendar = [NSCalendar currentCalendar];
+	
+	NSDate *date = [NSDate dateWithTimeInterval:seconds sinceDate:[NSDate new]];
+	NSDateComponents *components = [calendar components:NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond fromDate:[NSDate new] toDate:date options:0];
+	
+	NSString *str = @"";
+	if (components.day > 0){
+		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ day ", @(components.day)]];
 	}
-	return nil;
+	if (components.hour > 0){
+		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ hr ", @(components.hour)]];
+	}
+	if (components.minute > 0){
+		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ min ", @(components.minute)]];
+	}
+	if (components.second > 0){
+		str = [str stringByAppendingString:[NSString stringWithFormat:@"%@ sec ", @(components.second)]];
+	}
+	return str;
+}
+
++ (NSDate *) lastUpdateDate {
+	return [[NSUserDefaults standardUserDefaults] objectForKey:@"lastUpdateDate"];
 }
 
 + (void) setLastUpdateDate:(NSDate *)date {
-	CGFloat interval = [date timeIntervalSince1970];
-	[[NSUserDefaults standardUserDefaults] setObject:@(interval) forKey:@"lastUpdate"];
+	[[NSUserDefaults standardUserDefaults] setObject:date forKey:@"lastUpdateDate"];
 }
 
 + (NSString *) supportPath {

@@ -33,6 +33,7 @@
 
 + (NSInteger) secondsFromString: (NSString *) string;
 + (NSString *) stringFromSeconds: (NSInteger) seconds;
++ (NSString *) fullStringFromSeconds: (NSInteger) seconds;
 
 + (RACSignal *)imageFromURL: (NSString *) url;
 + (RACSignal *)jsonFromURL: (NSString *) url parameters: (NSDictionary *) parameters;
