@@ -24,7 +24,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	
 	item = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
-	item.button.image = [NSImage imageNamed:@"statusBarIcon"];
+	item.button.image = [NSImage imageNamed:@"statusBarIconTemplate"];
 	
 	NSMenu *menu = [NSMenu new];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Update" action:@selector(update) keyEquivalent:@""]];
