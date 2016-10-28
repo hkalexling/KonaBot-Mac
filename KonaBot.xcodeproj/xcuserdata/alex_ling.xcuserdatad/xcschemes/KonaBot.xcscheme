@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71D6AECB1DC0B9F10028623C"
-               BuildableName = "KonaBot-Mac.app"
-               BlueprintName = "KonaBot-Mac"
-               ReferencedContainer = "container:KonaBot-Mac.xcodeproj">
+               BuildableName = "KonaBot.app"
+               BlueprintName = "KonaBot"
+               ReferencedContainer = "container:KonaBot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71D6AECB1DC0B9F10028623C"
-            BuildableName = "KonaBot-Mac.app"
-            BlueprintName = "KonaBot-Mac"
-            ReferencedContainer = "container:KonaBot-Mac.xcodeproj">
+            BuildableName = "KonaBot.app"
+            BlueprintName = "KonaBot"
+            ReferencedContainer = "container:KonaBot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71D6AECB1DC0B9F10028623C"
-            BuildableName = "KonaBot-Mac.app"
-            BlueprintName = "KonaBot-Mac"
-            ReferencedContainer = "container:KonaBot-Mac.xcodeproj">
+            BuildableName = "KonaBot.app"
+            BlueprintName = "KonaBot"
+            ReferencedContainer = "container:KonaBot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71D6AECB1DC0B9F10028623C"
-            BuildableName = "KonaBot-Mac.app"
-            BlueprintName = "KonaBot-Mac"
-            ReferencedContainer = "container:KonaBot-Mac.xcodeproj">
+            BuildableName = "KonaBot.app"
+            BlueprintName = "KonaBot"
+            ReferencedContainer = "container:KonaBot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:KonaBot-Mac.xcodeproj">
+      location = "group:/Users/alex_ling/Code/KonaBot-Mac/KonaBot.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

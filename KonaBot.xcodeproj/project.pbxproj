@@ -33,7 +33,7 @@
 		71524E831DC34EC100FC6278 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		71524E851DC350ED00FC6278 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		71C3A38A1DC3703B00D901A1 /* KonaBot-Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KonaBot-Mac.entitlements"; sourceTree = "<group>"; };
-		71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KonaBot-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D6AECC1DC0B9F10028623C /* KonaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D6AECF1DC0B9F10028623C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71D6AED01DC0B9F10028623C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71D6AED31DC0B9F10028623C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		71D6AECD1DC0B9F10028623C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */,
+				71D6AECC1DC0B9F10028623C /* KonaBot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71D6AECB1DC0B9F10028623C /* KonaBot-Mac */ = {
+		71D6AECB1DC0B9F10028623C /* KonaBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot-Mac" */;
+			buildConfigurationList = 71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot" */;
 			buildPhases = (
 				A0040BA0C26765400C1825B5 /* 📦 Check Pods Manifest.lock */,
 				71D6AEC81DC0B9F10028623C /* Sources */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = "KonaBot-Mac";
+			name = KonaBot;
 			productName = "KonaBot-Mac";
-			productReference = 71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */;
+			productReference = 71D6AECC1DC0B9F10028623C /* KonaBot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot-Mac" */;
+			buildConfigurationList = 71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71D6AECB1DC0B9F10028623C /* KonaBot-Mac */,
+				71D6AECB1DC0B9F10028623C /* KonaBot */,
 			);
 		};
 /* End PBXProject section */
@@ -399,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot-Mac" */ = {
+		71D6AEC71DC0B9F10028623C /* Build configuration list for PBXProject "KonaBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71D6AEDE1DC0B9F10028623C /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot-Mac" */ = {
+		71D6AEE01DC0B9F10028623C /* Build configuration list for PBXNativeTarget "KonaBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71D6AEE11DC0B9F10028623C /* Debug */,
