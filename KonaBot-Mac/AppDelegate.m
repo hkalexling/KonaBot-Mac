@@ -18,6 +18,7 @@
 	NSMenuItem *r18Item;
 	KonaManager *manager;
 	NSWindowController *preferenceWC;
+	NSWindowController *aboutWC;
 	BOOL getting;
 }
 
@@ -34,6 +35,7 @@
 	r18Item = [[NSMenuItem alloc] initWithTitle: [Utility r18] ? @"Disable R18" : @"Enable R18" action:@selector(toggleR18) keyEquivalent:@""];
 	[menu addItem:r18Item];
 	[menu addItem:[NSMenuItem separatorItem]];
+	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"About" action:@selector(about) keyEquivalent:@""]];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Preference" action:@selector(preference) keyEquivalent:@","]];
 	[menu addItem:[NSMenuItem separatorItem]];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@"q"]];
@@ -63,6 +65,12 @@
 - (void)preference {
 	preferenceWC = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"preferenceWindowController"];
 	[preferenceWC showWindow:self];
+	[NSApp activateIgnoringOtherApps:YES];
+}
+
+- (void)about {
+	aboutWC = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"aboutWindowController"];
+	[aboutWC showWindow:self];
 	[NSApp activateIgnoringOtherApps:YES];
 }
 

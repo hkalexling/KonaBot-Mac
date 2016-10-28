@@ -10,6 +10,9 @@
 		713F99D61DC1969C006674F3 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 713F99D51DC1969C006674F3 /* Utility.m */; };
 		71524E791DC23B4900FC6278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71524E781DC23B4900FC6278 /* Assets.xcassets */; };
 		71524E7F1DC249B400FC6278 /* PreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71524E7E1DC249B400FC6278 /* PreferenceViewController.m */; };
+		71524E811DC34D9200FC6278 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 71524E801DC34D9200FC6278 /* about.html */; };
+		71524E841DC34EC100FC6278 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71524E831DC34EC100FC6278 /* AboutViewController.m */; };
+		71524E861DC350ED00FC6278 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71524E851DC350ED00FC6278 /* WebKit.framework */; };
 		71D6AED11DC0B9F10028623C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED01DC0B9F10028623C /* AppDelegate.m */; };
 		71D6AED41DC0B9F10028623C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6AED31DC0B9F10028623C /* main.m */; };
 		71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D6AEDA1DC0B9F10028623C /* Main.storyboard */; };
@@ -25,6 +28,10 @@
 		71524E781DC23B4900FC6278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71524E7D1DC249B400FC6278 /* PreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceViewController.h; sourceTree = "<group>"; };
 		71524E7E1DC249B400FC6278 /* PreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceViewController.m; sourceTree = "<group>"; };
+		71524E801DC34D9200FC6278 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		71524E821DC34EC100FC6278 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		71524E831DC34EC100FC6278 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		71524E851DC350ED00FC6278 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		71D6AECC1DC0B9F10028623C /* KonaBot-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KonaBot-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D6AECF1DC0B9F10028623C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71D6AED01DC0B9F10028623C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71524E861DC350ED00FC6278 /* WebKit.framework in Frameworks */,
 				FD509D806572F402055FD1E4 /* Pods_KonaBot_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +59,7 @@
 		0675DF43F3BC64FF27BC5D49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71524E851DC350ED00FC6278 /* WebKit.framework */,
 				1725EA2B9B682AD20E830DC0 /* Pods_KonaBot_Mac.framework */,
 			);
 			name = Frameworks;
@@ -91,12 +100,15 @@
 				71D6AED01DC0B9F10028623C /* AppDelegate.m */,
 				71524E7D1DC249B400FC6278 /* PreferenceViewController.h */,
 				71524E7E1DC249B400FC6278 /* PreferenceViewController.m */,
+				71524E821DC34EC100FC6278 /* AboutViewController.h */,
+				71524E831DC34EC100FC6278 /* AboutViewController.m */,
 				71D6AEE51DC102150028623C /* KonaManager.h */,
 				71D6AEE61DC102150028623C /* KonaManager.m */,
 				713F99D41DC1969C006674F3 /* Utility.h */,
 				713F99D51DC1969C006674F3 /* Utility.m */,
 				71D6AEDA1DC0B9F10028623C /* Main.storyboard */,
 				71D6AEDD1DC0B9F10028623C /* Info.plist */,
+				71524E801DC34D9200FC6278 /* about.html */,
 				71D6AED21DC0B9F10028623C /* Supporting Files */,
 			);
 			path = "KonaBot-Mac";
@@ -172,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71524E811DC34D9200FC6278 /* about.html in Resources */,
 				71524E791DC23B4900FC6278 /* Assets.xcassets in Resources */,
 				71D6AEDC1DC0B9F10028623C /* Main.storyboard in Resources */,
 			);
@@ -232,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71524E841DC34EC100FC6278 /* AboutViewController.m in Sources */,
 				71D6AEE71DC102150028623C /* KonaManager.m in Sources */,
 				713F99D61DC1969C006674F3 /* Utility.m in Sources */,
 				71524E7F1DC249B400FC6278 /* PreferenceViewController.m in Sources */,

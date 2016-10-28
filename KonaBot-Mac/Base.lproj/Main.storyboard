@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="11201"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -110,6 +111,55 @@
                 <customObject id="6AQ-ur-8yo" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="120" y="304"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="tU1-rA-LFq">
+            <objects>
+                <windowController storyboardIdentifier="aboutWindowController" id="xga-Fb-Rhk" sceneMemberID="viewController">
+                    <window key="window" title="About" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="3T9-lw-xZF">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="-1626" y="283" width="480" height="330"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="480" height="330"/>
+                    </window>
+                    <connections>
+                        <segue destination="n2D-nn-dEs" kind="relationship" relationship="window.shadowedContentViewController" id="Fdk-od-U5f"/>
+                    </connections>
+                </windowController>
+                <customObject id="B1r-qs-JLm" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="655"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="GdN-HU-dDU">
+            <objects>
+                <viewController id="n2D-nn-dEs" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" id="9ab-gk-PJb">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <webView translatesAutoresizingMaskIntoConstraints="NO" id="MyG-Ya-ozS">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
+                                    <nil key="identifier"/>
+                                </webPreferences>
+                            </webView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="MyG-Ya-ozS" firstAttribute="top" secondItem="9ab-gk-PJb" secondAttribute="top" id="909-If-QBN"/>
+                            <constraint firstAttribute="trailing" secondItem="MyG-Ya-ozS" secondAttribute="trailing" id="CLH-bv-doE"/>
+                            <constraint firstAttribute="bottom" secondItem="MyG-Ya-ozS" secondAttribute="bottom" id="RC0-Nb-zZE"/>
+                            <constraint firstItem="MyG-Ya-ozS" firstAttribute="leading" secondItem="9ab-gk-PJb" secondAttribute="leading" id="ryt-Qx-8Qa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="MyG-Ya-ozS" id="3kO-QF-OqR"/>
+                    </connections>
+                </viewController>
+                <customObject id="15q-Tl-DpE" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703" y="648"/>
         </scene>
         <!--Preference View Controller-->
         <scene sceneID="fNU-gn-OsT">
