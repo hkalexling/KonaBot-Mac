@@ -45,6 +45,8 @@
 	
 	[NSApp setActivationPolicy:NSApplicationActivationPolicyAccessory];
 	
+	[[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(workspaceChanged:) name:NSWorkspaceActiveSpaceDidChangeNotification object:[NSWorkspace sharedWorkspace]];
+	
 	[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(checkTime) userInfo:nil repeats:YES];
 }
 
@@ -118,6 +120,14 @@
 			}
 		}
 	}
+}
+
+- (void)workspaceChanged: (NSNotification *)notification{
+	[[Utility setWallpaper:nil] subscribeError:^(NSError * _Nullable error) {
+		NSLog(@"failed with error: %@", error);
+	} completed:^{
+		NSLog(@"succeed");
+	}];
 }
 
 @end

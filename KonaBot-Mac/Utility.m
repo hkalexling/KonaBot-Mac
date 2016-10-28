@@ -124,6 +124,14 @@
 	[[NSUserDefaults standardUserDefaults] setObject:date forKey:@"lastUpdateDate"];
 }
 
++ (NSString *) wallpaperPath {
+	return [[NSUserDefaults standardUserDefaults] objectForKey:@"path"];
+}
+
++ (void) setWallpaperPath:(NSString *)path {
+	[[NSUserDefaults standardUserDefaults] setObject:path forKey:@"path"];
+}
+
 + (NSString *) supportPath {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
 	NSString *support = [[paths firstObject] stringByAppendingPathComponent:@"com.hkalexling.konabot"];
@@ -236,7 +244,12 @@
 
 + (RACSignal *) setWallpaper: (NSString *) path; {
 	return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
-		NSURL *url = [NSURL fileURLWithPath:path];
+		NSString *thePath = [path copy];
+		if (!thePath){
+			thePath = [Utility wallpaperPath];
+			if (!thePath) return nil;
+		}
+		NSURL *url = [NSURL fileURLWithPath:thePath];
 		NSArray *screens = [NSScreen screens];
 		for (NSScreen *screen in screens){
 			NSError *error;
@@ -245,6 +258,7 @@
 				[subscriber sendError: error];
 			}
 			else{
+				[Utility setWallpaperPath:thePath];
 				[subscriber sendCompleted];
 			}
 		}

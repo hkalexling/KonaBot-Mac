@@ -28,6 +28,9 @@
 + (BOOL) autoUpdate;
 + (void) setAutoUpdate: (BOOL) update;
 
++ (NSString *) wallpaperPath;
++ (void) setWallpaperPath: (NSString *) path;
+
 + (NSDate *) lastUpdateDate;
 + (void) setLastUpdateDate: (NSDate *) date;
 
