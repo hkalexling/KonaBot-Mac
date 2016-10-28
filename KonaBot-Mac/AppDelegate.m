@@ -33,7 +33,7 @@
 	[menu addItem:nextItem];
 	[menu addItem:[NSMenuItem separatorItem]];
 	r18Item = [[NSMenuItem alloc] initWithTitle: [Utility r18] ? @"Disable R18" : @"Enable R18" action:@selector(toggleR18) keyEquivalent:@""];
-	[menu addItem:r18Item];
+	if (R18Enabled) [menu addItem:r18Item];
 	[menu addItem:[NSMenuItem separatorItem]];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"About" action:@selector(about) keyEquivalent:@""]];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Preference" action:@selector(preference) keyEquivalent:@","]];

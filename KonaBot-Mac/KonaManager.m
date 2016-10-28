@@ -48,7 +48,7 @@
 	NSDictionary *parameters = @{@"tags": @"order:random", @"limit": @(1)};
 	return [[Utility jsonFromURL:url parameters:parameters] flattenMap:^RACStream *(NSArray *jsons) {
 		
-		if ([[jsons[0] objectForKey:@"score"] integerValue] < [Utility minimumScore] || ([Utility r18] ? false : ![[jsons[0] objectForKey:@"rating"] isEqualToString:@"s"])){
+		if ([[jsons[0] objectForKey:@"score"] integerValue] < [Utility minimumScore] || ([Utility r18] && R18Enabled ? false : ![[jsons[0] objectForKey:@"rating"] isEqualToString:@"s"])){
 			return [self getRandomPost];
 		}
 		

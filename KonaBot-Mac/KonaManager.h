@@ -11,6 +11,7 @@
 #import <AFNetworking/AFNetworking.h>
 #import <ReactiveObjC/ReactiveObjC.h>
 #import "Utility.h"
+#import "AppDelegate.h"
 
 @interface KonaPost : NSObject
 
